@@ -79,6 +79,7 @@ a {
     align-items: center;
     justify-content: center;
     max-width: 100%;
+   
 }
 
 .button {
@@ -112,7 +113,7 @@ a {
 
 div.container .contact-info ul li {
     display: block;
-    padding: 10px;
+    padding: 20px;
     border: solid #fff 1px;
     margin: 10px;
     background: rgba(51, 51, 51, 0.3); /* Semi-transparent background */
@@ -130,7 +131,7 @@ div.container .contact-info ul li {
     opacity: 0.7;
     max-width: 100%;
     height: 500px;
-    margin: 50px;
+    margin: 0 auto;
 
 }
 
@@ -158,7 +159,7 @@ div.container .contact-info ul li {
     display: flex;
     align-items: center;
     justify-content:center;
-    opacity: 0.7;
+    opacity: 0.8;
     max-width: 100%;
     height: 600px;
 
@@ -173,6 +174,7 @@ label {
     display: block;
     font-weight: bold;
     color: #fff;
+    
 }
 
 input[type="text"],
@@ -194,25 +196,42 @@ textarea {
 /* About Content */
 
 .rasta-bio {
-    background-image: url("../images/rasta-gallery.png");
+    background-image: url("../images/rasta-man.jpeg");
     background-size: cover; 
-    display: flex;
-    align-items: left;
     justify-content: center;
+    float: left;
     opacity: 0.9;
-    max-width: 300px;
-    height: 300px;
-    
-    
+    max-width:600px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
 
 }
 
-
-
 .bio-r {
     color: #fff;
-    padding: 20px;
+    padding: 0px 60px;
+    margin:  60px;
+    text-align: center;
+    align-items: center;
 
+}
+
+.vl {
+    border-left: 6px solid crimson;
+    height: 300px;
+    margin: 0px 200px;
+  }
+
+
+  p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-left: 30px;
+
+    
 }
 
 .contact-info {
@@ -224,22 +243,18 @@ textarea {
     opacity: 0.9;
     max-width: 100%;
     height: 400px;
+    
 
 }
 
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;
-    flex: 1;
-   
+.bio-r h3 {
+    color: crimson;
+  
+
+}
+
 
     
-}
 
-.footer {
-    height: 80px;
-    width: 100%;
-    background: #333;
-    display: block;
-    opacity: 0.4;
-}
+    
+
