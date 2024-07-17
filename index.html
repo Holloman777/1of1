@@ -40,22 +40,29 @@
 
     <section id="bg-image">
         <div class="art-content">
-            <form action="/submit-form" method="POST">
-                <div class="form-group">
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                </div>
-                <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-                <div class="form-group">
-                  <label for="message">Message:</label>
-                  <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Submit</button>
-              </form>
-            </div>
+            <div class="container">
+            <h1>Custom Artwork Order Form</h1>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <label for="item">Select Item:</label>
+                <select id="item" name="item" required>
+                    <option value="">--Select an Item--</option>
+                    <option value="artwork">Artwork</option>
+                    <option value="shoes">Shoes</option>
+                    <option value="hats">Hats</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="murals">Murals</option>
+                    <option value="bicycles">Bicycles</option>
+                    <option value="purses">Purses</option>
+                </select>
+    
+                <label for="description">Description of Customization:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+    
+                <label for="reference">Upload Reference Images/Designs:</label>
+                <input type="file" id="reference" name="reference" accept="image/*" multiple required>
+    
+                <button type="submit">Submit Order</button>
+            </form>
        
         
        
