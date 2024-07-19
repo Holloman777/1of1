@@ -202,11 +202,6 @@ div.container .contact-info ul li {
 
 }
 
-.about-author {
-    height: 600px;
-    width: 100%;
-    padding: 1px;
-}
 
 
     
@@ -272,24 +267,25 @@ button:hover {
 }
 /* About Content */
 
-.rasta-bio, img {
+.rasta-bio img{
     background-size: cover; 
     justify-content: center;
     float: left;
     opacity: 0.9;
-    max-width:500px;
+    max-width:250px;
     height: 220px;
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    border-radius: 8px;
+    margin-left: 145px;
+    margin-top: 95px;
+    border-radius: 5px;
+    
+    
 
 }
 
 .bio-r {
     color: #fff;
-    padding: 0px 60px;
-    margin-top:  60px;
+    padding: 0px 70px;
+    margin: 60px;
     text-align: center;
     align-items: center;
     
@@ -298,8 +294,8 @@ button:hover {
 
 .bio-r h3 {
     color: crimson;
-    margin: 20px;
-    padding-right: 80px;
+    padding-right: 120px;
+    
   
 
 }
@@ -307,15 +303,17 @@ button:hover {
 .vl {
     border-left: 6px solid crimson;
     height: 300px;
-    margin: 0px 200px;
+    margin-left:300px;
+    
   }
 
 
  .vl p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:justify;
-    padding-left: 30px;
+    padding-left: 35px;
     font-size: 18px;
+    
 
     
 }
